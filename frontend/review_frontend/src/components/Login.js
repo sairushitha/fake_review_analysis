@@ -1,7 +1,7 @@
 // src/components/Login.js
+import './Login.css';
 import React, { useState } from 'react';
-import loginImage from '/Users/sairushitha/Downloads/Fake_Review_Monitoring_UI-main/frontend/review_frontend/src/assests/Analysis_Image.avif'; // Import the image
-
+import loginImage from '/Users/sairushitha/Downloads/Fake_Review_Monitoring_UI-main/frontend/review_frontend/src/assests/images2.jpeg'
 function Login({ setLoggedIn, setWelcomeMessage, setShowLogin }) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');

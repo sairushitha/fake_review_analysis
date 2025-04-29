@@ -1,62 +1,65 @@
-.analysis-container { text-align: center; 
-  margin: 50px auto; /* Center the container */ 
-  width: 70%; /* Set the container width to 80% of the viewport */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+}
+
+.analysis-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.analysis-container h1 {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 30px;
 }
 
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Display three images per row */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
-  justify-items: center;
   margin-top: 20px;
 }
 
-/* Define custom sizes for each image */
-.image-size1 img {
-  width: 100px; /* Adjust the size as needed */
-  height: auto;
+.image-item {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-.image-size2 img {
-  width: 150px; /* Adjust the size as needed */
-  height: auto;
+.image-item:hover {
+  transform: translateY(-5px);
 }
 
-.image-size3 img {
-  width: 200px; /* Adjust the size as needed */
-  height: auto;
+.image-item h3 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 10px;
 }
 
-.image-size4 img {
-  width: 250px; /* Adjust the size as needed */
+.image-item img {
+  width: 100%;
   height: auto;
-}
-
-.image-size5 img {
-  width: 300px; /* Adjust the size as needed */
-  height: auto;
-}
-
-.image-size6 img {
-  width: 350px; /* Adjust the size as needed */
-  height: auto;
+  border-radius: 8px;
 }
 
 button {
-  background-color: rgb(18, 162, 210);
-  border: none;
+  margin-top: 30px;
+  background-color: #0066cc;
   color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 20px;
-  cursor: pointer;
+  padding: 12px 24px;
+  border: none;
   border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: deepskyblue;
+  background-color: #004c99;
 }

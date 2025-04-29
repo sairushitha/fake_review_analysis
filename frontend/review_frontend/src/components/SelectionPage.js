@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import titleImage from '/Users/sairushitha/Downloads/Fake_Review_Monitoring_UI-main/frontend/review_frontend/src/assests/SelectionPage_Logo.png'; // Adjust the path as needed
+import './SelectionPage.css';
+import titleImage from '/Users/sairushitha/Downloads/Fake_Review_Monitoring_UI-main/frontend/review_frontend/src/assests/image4.png'; // Adjust the path as needed
 import '/Users/sairushitha/Downloads/Fake_Review_Monitoring_UI-main/frontend/review_frontend/src/SelectionPage.css'; // Import the CSS file for styling
 
 function SelectionPage() {

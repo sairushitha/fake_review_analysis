@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import './Dashboard.css';
+
 
 function Dashboard({ welcomeMessage, setLoggedIn }) {
   const [showProfile, setShowProfile] = useState(false);

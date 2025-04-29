@@ -1,4 +1,4 @@
-/* src/App.css */
+/* src/App.css
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -106,15 +106,15 @@ body {
 }
 
 .dashboard-header { 
-  background-color: #0882bb; /* Set background color to baby blue */ 
+  background-color: #0882bb; 
   color: white; 
   padding: 20px; 
   border-radius: 5px; 
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for header effect */ 
-  position: sticky; /* Make the header stick at the top */ 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  position: sticky;
   top: 0; 
   z-index: 1000; 
 }
@@ -214,4 +214,4 @@ body {
 
 .profile-modal button + button {
   margin-left: 10px;
-}
+} */

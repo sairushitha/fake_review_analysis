@@ -1,6 +1,6 @@
 // src/components/Register.js
 import React, { useState } from 'react';
-import RegisterImage from '/Users/sairushitha/Downloads/Fake_Review_Monitoring_UI-main/frontend/review_frontend/src/assests/Analysis_Image.avif'; // Import the image
+import RegisterImage from '/Users/sairushitha/Downloads/Fake_Review_Monitoring_UI-main/frontend/review_frontend/src/assests/images2.jpeg'; // Import the image
 
 function Register({ setShowLogin }) {
   const [username, setUsername] = useState('');
