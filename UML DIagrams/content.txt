@@ -1,2 +1,0 @@
-This folder contains the information about the actors,use cases, Extended and Proposed system.
-  
