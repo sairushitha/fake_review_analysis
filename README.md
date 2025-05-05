@@ -1,28 +1,27 @@
-# Fake_Review_Monitoring_System_Interact_WIth_UI
+# Fake Review Monitoring System – UI Interaction
 
-In recent times there is a rapid increase in the online purchases in various e-commerce sites. User is estimating the
-quality of the product based on the product ratings and reviews. Simultaneously, there might be a high chance of
-coming across fake reviews.This impacts negatively on the user trusting the product and the website.Similarly, the
-negative fake reviews also affects the merchant business.Hence, author is aiming to create a system which detects
-and monitor these fake reviews
+With the rapid growth of online shopping on various e-commerce platforms, users increasingly rely on ratings and reviews to judge product quality. At the same time, the prevalence of fake reviews undermines trust in both the products and the platform. Conversely, negative fake reviews can harm merchants’ reputations and sales. To address these challenges, we have extended the work from anubhavs11’s Fake-Product-Review-Monitoring by integrating a user interface that supports the following scenarios:
 
-This is an extension to the project of https://github.com/anubhavs11/Fake-Product-Review-Monitoring  which included the intraction with UI.
-In our project We addressed the following use cases :
+New User/Admin Registration
+– A simple form for signing up, with separate roles and permissions for users and administrators.
 
-1.Registering the new user or admin
+User Review Submission
+– Registered users can write and submit product reviews through an intuitive UI.
 
-2.User interact with user for writing a review
+Admin Alert on Suspicious Reviews
+– Administrators receive real-time notifications when a review is flagged as potentially fake.
 
-3.Admin gets an alert when user makes an analogous review
+Invalid Credentials for Users
+– If a user enters incorrect login details, the system displays an “Invalid credentials” prompt.
 
-4.If user tries to login with invalid credentials,Gets a prompt message
+Blocked or Bot User Login Attempt
+– Blocked accounts or detected bots receive a “You are blocked” message when they try to log in or post a review.
 
-5.When Bot/Blocked user tries to login and create a review,gets a blocked message
+Admin Analytics Dashboard
+– Administrators can interact with the UI to view summary statistics, visualizations, and detailed analyses of review authenticity.
 
-6.Admin interact with UI to make an Analysis
+Invalid Credentials for Admins
+– Admin login attempts with wrong credentials trigger the same “Invalid credentials” prompt, ensuring consistency.
 
-7.If admin tries to login with invalid credentials,Gets a prompt message.
-
-8.Invalid file input other than .csv,Gets an error message
-
-
+Invalid File Upload Handling
+– When a non-CSV file is uploaded (e.g., .txt, .xlsx), the UI returns an “Unsupported file format” error, guiding users to provide the correct .csv input.
