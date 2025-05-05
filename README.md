@@ -1,6 +1,6 @@
 # Fake Review Monitoring System – UI Interaction
 
-With the rapid growth of online shopping on various e-commerce platforms, users increasingly rely on ratings and reviews to judge product quality. At the same time, the prevalence of fake reviews undermines trust in both the products and the platform. Conversely, negative fake reviews can harm merchants’ reputations and sales. To address these challenges, we have extended the work from anubhavs11’s Fake-Product-Review-Monitoring by integrating a user interface that supports the following scenarios:
+With the rapid growth of online shopping on various e-commerce platforms, users increasingly rely on ratings and reviews to judge product quality. At the same time, the prevalence of fake reviews undermines trust in both the products and the platform. Conversely, negative fake reviews can harm merchants’ reputations and sales. To address these challenges, we have extended the work from [anubhavs11’s Fake-Product-Review-Monitoring] by integrating a user interface that supports the following scenarios:
 
 New User/Admin Registration
 – A simple form for signing up, with separate roles and permissions for users and administrators.
